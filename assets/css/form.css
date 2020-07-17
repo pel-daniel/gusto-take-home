@@ -1,0 +1,19 @@
+input {
+  background-color: var(--color-gray1);
+  border: none;
+  border-radius: 4px;
+  border-bottom: 1px solid var(--color-black);
+
+  outline: none;
+  padding: 1rem;
+
+  width: 100%;
+}
+
+label {
+  letter-spacing: 0.3px;
+}
+
+.form-control {
+  margin-bottom: 0.4rem;
+}

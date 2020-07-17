@@ -1,17 +1,36 @@
 @import url('card.css');
 @import url('card-login.css');
+@import url('form.css');
+@import url('spacing.css');
+
+@font-face {
+  font-display: swap;
+  font-family: GCentra;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/gcentra-book.woff2) format("woff2"),
+    url(../fonts/gcentra-book.woff) format("woff");
+}
+
+:root {
+  --color-black: #525257;
+  --color-gray1: #f8f8f8;
+}
 
 * {
   box-sizing: border-box;
 }
 
 html {
+  color: var(--color-black);
+  font-family: GCentra, --sytem, sans-serif;
   font-size: 10px;
 }
 
 .layout {
   border: 1px solid red;
   display: flex;
+  font-size: 1.3rem;
 
   height: 742px;
   width: 160rem;
