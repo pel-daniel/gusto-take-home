@@ -1,7 +1,7 @@
 @import url('card.css');
 @import url('card-login.css');
 @import url('form.css');
-@import url('spacing.css');
+@import url('helpers.css');
 
 @font-face {
   font-display: swap;
@@ -15,6 +15,8 @@
 :root {
   --color-black: #525257;
   --color-gray1: #f8f8f8;
+
+  --color-primary: #387e7f;
 }
 
 * {
@@ -25,6 +27,11 @@ html {
   color: var(--color-black);
   font-family: GCentra, --sytem, sans-serif;
   font-size: 10px;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
 }
 
 .layout {
