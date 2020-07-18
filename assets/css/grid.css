@@ -10,3 +10,8 @@
 .row > .col:last-of-type {
   margin-right: 0;
 }
+
+.center-wrapper {
+  margin: 0 auto;
+  width: 38.1rem;
+}
