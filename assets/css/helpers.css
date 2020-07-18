@@ -23,6 +23,10 @@
   display: flex;
 }
 
+.sp-bt {
+  justify-content: space-between;
+}
+
 .inline-flex {
   align-items: center;
   display: inline-flex;

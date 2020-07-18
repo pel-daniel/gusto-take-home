@@ -41,3 +41,8 @@ label {
 .form-control {
   margin-bottom: 0.4rem;
 }
+
+.separator-line {
+  border-top: 2px solid var(--color-gray2);
+  width: 31%;
+}
