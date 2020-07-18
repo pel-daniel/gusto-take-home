@@ -4,6 +4,10 @@
   width: 1.6rem;
 }
 
+.icon-lg {
+  width: 1.9rem;
+}
+
 .icon-secondary {
   color: var(--color-white);
 }
