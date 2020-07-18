@@ -7,6 +7,10 @@
 }
 
 .mb-sm {
+  margin-bottom: 2rem;
+}
+
+.mb-xs {
   margin-bottom: 1.6rem;
 }
 
@@ -15,5 +19,11 @@
 }
 
 .flex {
+  align-items: center;
   display: flex;
+}
+
+.inline-flex {
+  align-items: center;
+  display: inline-flex;
 }
