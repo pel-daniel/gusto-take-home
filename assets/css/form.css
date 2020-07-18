@@ -27,7 +27,7 @@ button {
 .btn-secondary {
   background-color: var(--color-white);
   color: var(--color-primary);
-  padding: 0.9rem;
+  padding: 0.8rem;
 }
 
 button .icon {
