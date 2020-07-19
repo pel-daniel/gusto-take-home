@@ -1,9 +1,12 @@
+/* Components */
 @import url('card.css');
-@import url('card-login.css');
 @import url('form.css');
 @import url('helpers.css');
 @import url('icon.css');
 @import url('grid.css');
+
+/* Pages */
+@import url('login.css');
 
 @font-face {
   font-display: swap;
