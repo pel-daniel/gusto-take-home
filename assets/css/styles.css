@@ -21,6 +21,8 @@
   --color-black: 82, 82, 87;
   --color-gray1: #f8f8f8;
   --color-gray2: #dcdcdc;
+  --color-gray3: #fafafa;
+  --color-gray4: #f4f4f4;
   --color-white: #ffffff;
 
   --color-primary: #387e7f;
@@ -50,11 +52,14 @@ a {
 }
 
 .main-container {
-  margin-right: 2.6rem;
+  background-color: var(--color-gray3);
+  padding-right: 2.6rem;
   padding-top: 2.9rem;
-  width: 117.2rem;
+  width: 120rem;
+  z-index: -100;
 }
 
 .right-container {
+  background-color: var(--color-gray4);
   width: 40rem;
 }

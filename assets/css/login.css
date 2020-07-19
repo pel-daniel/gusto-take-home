@@ -1,6 +1,9 @@
+.card-login {
+  position: relative;
+}
+
 .card-login_logo {
   margin: 0 auto;
-  position: relative;
   width: 14.9rem;
   z-index: 1;
 }
@@ -10,9 +13,9 @@
   background-size: contain;
   content: '';
   height: 323px;
-  left: 57px;
+  left: -336px;
   position: absolute;
-  top: 167px;
+  top: 139px;
   width: 345px;
   z-index: -10;
 }
@@ -21,10 +24,10 @@
   background-image: url('../images/right_illustration.svg');
   background-size: contain;
   content: '';
-  height: 343px;
+  height: 345px;
   position: absolute;
-  right: 491px;
-  width: 326px;
-  top: 231px;
+  right: -316px;
+  width: 328px;
+  top: 200px;
   z-index: -10;
 }
