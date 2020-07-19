@@ -1,4 +1,30 @@
 .card-login_logo {
   margin: 0 auto;
+  position: relative;
   width: 14.9rem;
+  z-index: 1;
+}
+
+.card-login:before {
+  background-image: url('../images/left_illustration.svg');
+  background-size: contain;
+  content: '';
+  height: 323px;
+  left: 57px;
+  position: absolute;
+  top: 167px;
+  width: 345px;
+  z-index: -10;
+}
+
+.card-login:after {
+  background-image: url('../images/right_illustration.svg');
+  background-size: contain;
+  content: '';
+  height: 343px;
+  position: absolute;
+  right: 491px;
+  width: 326px;
+  top: 231px;
+  z-index: -10;
 }
