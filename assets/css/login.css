@@ -31,3 +31,20 @@
   top: 200px;
   z-index: -10;
 }
+
+@media (max-width: 1100px) {
+  .card-login:before,
+  .card-login:after {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .center-wrapper {
+    width: 95%;
+  }
+
+  .card-login {
+    width: 100%;
+  }
+}

@@ -74,3 +74,18 @@ p {
   padding: 19rem 4rem 0;
   width: 40rem;
 }
+
+@media (max-width: 1600px) {
+  .layout {
+    width: 100%;
+  }
+
+  .main-container {
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .right-container {
+    display: none;
+  }
+}
