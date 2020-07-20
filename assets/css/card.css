@@ -5,3 +5,7 @@
   box-shadow: 0 4px 25px rgba(var(--color-black), 0.1);
   padding: 3.9rem 4.9rem;
 }
+
+.card-sm {
+  padding: 3.6rem 4rem;
+}
