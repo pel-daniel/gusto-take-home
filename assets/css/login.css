@@ -8,6 +8,11 @@
   z-index: 1;
 }
 
+.card-login .card {
+  position: relative;
+  z-index: 100;
+}
+
 .card-login:before {
   background-image: url('../images/left_illustration.svg');
   background-size: contain;
@@ -17,7 +22,6 @@
   position: absolute;
   top: 139px;
   width: 345px;
-  z-index: -10;
 }
 
 .card-login:after {
@@ -29,7 +33,6 @@
   right: -316px;
   width: 328px;
   top: 200px;
-  z-index: -10;
 }
 
 @media (max-width: 1100px) {
